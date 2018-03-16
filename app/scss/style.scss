@@ -11,4 +11,24 @@ body {
     width: 100%;
     background: url(../images/first.jpg) no-repeat;
     background-size:cover;
+    .firstpage {
+        height: 100%;
+        width: 100%;
+    }
+}
+#second-page {
+    display: none;
+    height: 100%;
+    width: 100%;
+}
+.main {
+    width: 100%;
+    .warrior {
+        margin-top: 10%;
+        width: 100%;
+        position: relative;
+        img {
+            position: absolute;
+        }
+    }
 }
