@@ -23,12 +23,16 @@ body {
 }
 .main {
     width: 100%;
+    position: relative;
     .warrior {
-        margin-top: 10%;
         width: 100%;
         position: relative;
         img {
             position: absolute;
         }
+    }
+    #colored_warrior {
+        position: absolute;
+        display: none;
     }
 }
